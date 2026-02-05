@@ -1,6 +1,7 @@
 AI Chatbot Playground: LLM Parametre Deney Alanı
 
 Bu proje, Next.js, Vercel AI SDK ve Groq (Llama 3) kullanılarak geliştirilmiş, modern bir yapay zeka sohbet arayüzüdür. Kullanıcıların sadece yapay zeka ile sohbet etmesini değil, aynı zamanda modelin üretim parametrelerini (temperature, max tokens) anlık olarak test etmesini sağlamak amacıyla bir "playground" yapısında tasarlanmıştır.
+
 ✨ Özellikler
 
     Dinamik Parametre Kontrolü: Temperature ve Max Tokens değerlerini slider üzerinden anlık olarak değiştirebilme.
