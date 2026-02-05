@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+AI Chatbot Playground: LLM Parametre Deney Alanı
+<img width="1876" height="1074" alt="resim" src="https://github.com/user-attachments/assets/a3d0fd47-137c-4f53-b07b-87e59061f2a7" />
 
-## Getting Started
+<img width="1899" height="1072" alt="resim" src="https://github.com/user-attachments/assets/b8a88f3a-c760-401f-832d-8052bb9810d7" />
 
-First, run the development server:
+Bu proje, Next.js, Vercel AI SDK ve Groq (Llama 3) kullanılarak geliştirilmiş, modern bir yapay zeka sohbet arayüzüdür. Kullanıcıların sadece yapay zeka ile sohbet etmesini değil, aynı zamanda modelin üretim parametrelerini (temperature, max tokens) anlık olarak test etmesini sağlamak amacıyla bir "playground" yapısında tasarlanmıştır.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Özellikler
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+    Dinamik Parametre Kontrolü: Temperature ve Max Tokens değerlerini slider üzerinden anlık olarak değiştirebilme.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+    Modern UI/UX: Tailwind CSS ile hazırlanmış, karanlık mod destekli ve duyarlı (responsive) tasarım.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    Hızlı Yanıt Süresi: Groq altyapısı ve Vercel AI SDK'nın streaming (akış) özelliği sayesinde gecikmesiz cevaplar.
 
-## Learn More
+    Bilgi İkonları (Tooltips): Teknik parametrelerin (Sıcaklık, Uzunluk vb.) ne işe yaradığını açıklayan kullanıcı dostu bilgilendirmeler.
 
-To learn more about Next.js, take a look at the following resources:
+    Sidebar Yapısı: Modern sohbet uygulamalarına uygun, gelecekte geçmiş yönetimine açık sol panel tasarımı.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ Teknolojiler
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    Framework: Next.js 15 (App Router)
 
-## Deploy on Vercel
+    AI SDK: Vercel AI SDK
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    LLM Provider: Groq (Llama 3.3-70b)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+    Styling: Tailwind CSS
+
+    Language: TypeScript
+
+    <img width="1919" height="1079" alt="resim" src="https://github.com/user-attachments/assets/69573db7-33f8-438c-ac73-80d01330127e" />
